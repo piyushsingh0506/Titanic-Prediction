@@ -1,0 +1,57 @@
+body{
+    background-image: url("/static/image/titanic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background: darkgreen;
+}
+
+.result{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
